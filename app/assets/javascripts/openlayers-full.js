@@ -1,0 +1,1 @@
+//= require openlayers/OpenLayers.full

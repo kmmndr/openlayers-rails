@@ -22,7 +22,14 @@ Add the following lines to your `app/assets/javascripts/application.js` manifest
 ```
 // app/assets/javascripts/application.js
 // Choose your openlayers version
+//= require openlayers-full
 //= require openlayers-full-debug
+//= require openlayers-light
+//= require openlayers-light-debug
+//= require openlayers-lite
+//= require openlayers-lite-debug
+//= require openlayers-mobile
+//= require openlayers-mobile-debug
 //
 // Then require rails assets integration
 //= require openlayers-rails
