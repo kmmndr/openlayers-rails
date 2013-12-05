@@ -18,4 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-Add `//= require openlayers-rails` to your `app/assets/javascripts/application.js` manifest file.
+Add the following lines to your `app/assets/javascripts/application.js` manifest file.
+```
+// app/assets/javascripts/application.js
+// Choose your openlayers version
+//= require openlayers-full-debug
+//
+// Then require rails assets integration
+//= require openlayers-rails
+```
